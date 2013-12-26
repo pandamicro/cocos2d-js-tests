@@ -125,7 +125,7 @@
                 sourceMapFormat="V3"
                 languageIn="ECMASCRIPT5">
             <externs dir="${basedir}">
-                <file name="../../cocos2d/cocos2d_externs.js"/>
+                <file name="../../cocos2d/core/cocos2d_externs.js"/>
                 <file name="AdvanceCompiler/test_custom_externs.js"/>
             </externs>
             <sources dir="${basedir}/../../cocos2d">
@@ -167,6 +167,8 @@
                 <file name="core/platform/CCApplication.js"/>
                 <file name="core/platform/CCSAXParser.js"/>
                 <file name="core/platform/AppControl.js"/>
+                <file name="core/labelTTF/CCLabelTTF.js"/>
+                <file name="core/CCActionManager.js"/>
                 <file name="kazmath/utility.js"/>
                 <file name="kazmath/vec2.js"/>
                 <file name="kazmath/vec3.js"/>
@@ -188,11 +190,10 @@
                 <file name="clipping_nodes/CCClippingNode.js"/>
                 <file name="effects/CCGrid.js"/>
                 <file name="effects/CCGrabber.js"/>
-                <file name="draw_nodes/CCDrawNode.js"/>
+                <file name="shape_nodes/CCDrawNode.js"/>
                 <file name="actions/CCAction.js"/>
                 <file name="actions/CCActionInterval.js"/>
                 <file name="actions/CCActionInstant.js"/>
-                <file name="actions/CCActionManager.js"/>
                 <file name="actions/CCActionCamera.js"/>
                 <file name="actions/CCActionEase.js"/>
                 <file name="actions/CCActionCatmullRom.js"/>
@@ -207,7 +208,6 @@
                 <file name="transitions_nodes/CCTransitionProgress.js"/>
                 <file name="transitions_nodes/CCTransitionPageTurn.js"/>
                 <file name="label_nodes/CCLabelAtlas.js"/>
-                <file name="label_nodes/CCLabelTTF.js"/>
                 <file name="label_nodes/CCLabelBMFont.js"/>
                 <file name="compress/ZipUtils.js"/>
                 <file name="compress/base64.js"/>
@@ -301,12 +301,10 @@
                 <file name="CocoStudio/Components/CCComRender.js"/>
                 <file name="CocoStudio/GUI/BaseClasses/UIWidget.js"/>
                 <file name="CocoStudio/GUI/Layouts/UILayout.js"/>
-                <file name="CocoStudio/GUI/BaseClasses/UIRootWidget.js"/>
                 <file name="CocoStudio/GUI/Layouts/UILayoutParameter.js"/>
                 <file name="CocoStudio/GUI/Layouts/UILayoutDefine.js"/>
                 <file name="CocoStudio/GUI/System/CocosGUI.js"/>
                 <file name="CocoStudio/GUI/System/UIHelper.js"/>
-                <file name="CocoStudio/GUI/System/UIInputManager.js"/>
                 <file name="CocoStudio/GUI/System/UILayer.js"/>
                 <file name="CocoStudio/GUI/UIWidgets/UIButton.js"/>
                 <file name="CocoStudio/GUI/UIWidgets/UICheckBox.js"/>
@@ -322,7 +320,6 @@
                 <file name="CocoStudio/GUI/UIWidgets/ScrollWidget/UIScrollView.js"/>
                 <file name="CocoStudio/GUI/UIWidgets/ScrollWidget/UIListView.js"/>
                 <file name="CocoStudio/GUI/UIWidgets/ScrollWidget/UIPageView.js"/>
-                <file name="CocoStudio/GUI/UIWidgets/ScrollWidget/UIScrollInterface.js"/>
                 <file name="CocoStudio/Reader/GUIReader.js"/>
                 <file name="CocoStudio/Reader/SceneReader.js"/>
             </sources>
